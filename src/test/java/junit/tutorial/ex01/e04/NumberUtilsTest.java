@@ -9,13 +9,13 @@ class NumberUtilsTest {
 
 	@Test
 	@DisplayName("引数が偶数である場合trueを返すメソッド実行")
-	void test1() {
+	public void test1() {
 		assertTrue(NumberUtils.isEven(10),"isEvenメソッドの引数が10の場合");
 	}
 
 	@Test
 	@DisplayName("引数が偶数である場合trueを返すメソッド実行")
-	void test2() {
+	public void test2() {
 		assertFalse(NumberUtils.isEven(7),"isEvenメソッドの引数が7の場合");
 	}
 }
